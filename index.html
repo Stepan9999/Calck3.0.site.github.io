@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calck3.0</title>
+    <script src="./script.js" async></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="wrap_form">
+       <input type="number" id="first_num" class required >
+        <select id="select_operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+        </select>
+       <input type="number" id="second_num" class="" required >
+       <button id="button">Calculate</button>
+   </div>
+   <div class="wrap_result">
+        <h2>Result cacl</h2>
+        <ul id="list_result">
+        </ul>
+    </div>
+    <script type="template/html" id="li-template">
+        <span class="my-tmp">{{firstOperand}} {{option}} {{secondOperand}} = {{result}}</span>
+    </script>
+</body>
+</html>
