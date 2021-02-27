@@ -1,3 +1,17 @@
-input:invalid {
-  border: 1px solid red;
+.black {
+  border: 2px solid black;
+}
+.red {
+  border: 2px solid red;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+  text-align: center;
+  margin-left: 20px;
+  height: 55px;
+  width: 160px;
+  border: 8px solid red;
 }
